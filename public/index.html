@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Chatroom application container -->
+	<div class="app">
+	<!-- Join screen -->
+		<div class="screen join-screen active">
+		<!-- Join form -->
+			<div class="form">
+				<h2>Join Chatroom</h2>
+				<div class="form-input">
+					<label>Username</label>
+					<input type="text" id="username">
+				</div>
+				<div class="form-input">
+					<button id="join-user">Join</button>
+				</div>
+			</div>
+		</div>
+			<!-- Chat screen -->
+		<div class="screen chat-screen">
+			<div class="header">
+				<div class="logo">Chatroom</div>
+				<button id="exit-chat">Exit</button>
+			</div>
+			<div class="messages">
+			</div>
+			<div class="typebox">
+				<input type="text" id="message-input">
+				<button id="send-message">Send</button>
+			</div>
+		</div>
+	</div>
+<!-- External script references -->
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="code.js"></script>
+</body>
+</html>

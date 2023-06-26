@@ -1,0 +1,436 @@
+/* Styles for the h1 heading element */
+h1{
+  font-size: 48px;
+}
+
+
+/* Styles for the banner section */
+.banner {
+  background-color: #ffffff;
+  margin-top: 140px;
+}
+
+
+/* Styles for the content within the banner section */
+.banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.banner h2 {
+  font-size: 24px;
+}
+
+.banner form {
+  margin-top: 20px;
+  border: 1px solid #e6e9ed;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.banner input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: none;
+}
+
+.banner button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .banner {
+    margin-top: 140px;
+  
+  }
+  
+  .banner form {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+  }
+
+  .banner input[type="email"] {
+    width: 70%;
+    max-width: 300px;
+  }
+}
+
+
+/* Styles for the video container */
+#video-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-top: 20px;
+}
+
+/* Styles for the video */
+#video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Styles for the products/offers section */
+  .products-offers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    border-bottom: 1px solid #e6e9ed;
+    margin-top: 100px;
+  }
+  
+
+  /* Styles for the text section on the left side */
+  .left-text {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 300px;
+  }
+  
+
+  /* Styles for the photo section*/
+
+  .right-photo {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+  }
+  
+
+  /* Styles for the photos within the products/offers section */
+  .photo {
+    max-width: 800px;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 400px;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+
+  /* hover effect */
+  .photo:hover {
+    transform: scale(1.1);
+  }
+  
+
+  /* responsivness products section*/
+  @media (max-width: 780px) {
+    /* Adjust the height for even smaller screens */
+    .products-offers {
+      height: 400px;
+    }
+  
+    /* Modify the margin and padding for the text section */
+    .left-text {
+      padding: 5px;
+      margin-bottom: 100px;
+    }
+  
+    /* Modify the margin for the photo section */
+    .right-photo {
+      margin-top: 100px;
+    }
+  
+    /* Modify the margin and max-width for the photos */
+    .photo {
+      max-width: 100%;
+      margin-bottom: 100px;
+    }
+  }
+/* Styles for the learn section */
+.learn{
+  text-align: center;
+  margin-bottom:150px;
+  margin-top: 50px;
+}
+
+
+/* Styles for the banner photo on the skills page(the cat with my skills) */
+  .bannerPhoto {
+    width: 100%;
+    height: 360px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-top: 120px;
+  }
+  
+
+  /* Styles for the geolocation section */
+.geolocation{
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 500px; 
+  margin: 0 auto;
+
+}
+
+
+/* Styles for the map*/
+#map {
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/*Styles for the result*/
+#result {
+font-size: 18px;
+color: #e6e9ed;
+}
+
+
+/* Styles for the location button for the map*/
+.getLocationButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #bb7d49;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: 20px;
+}
+
+
+/*hover*/
+.getLocationButton:hover {
+  background-color: #45a049;
+}
+
+
+/*styles for the canva section*/
+.canva{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+
+ 
+}
+#myCanvas{
+  border:1px solid grey;
+  color:rgb(86, 107, 86);
+}
+
+
+/*Styles for the image-map*/
+.image-map{
+  width: 200%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .image-map {
+    max-width: 600px; /* Once the photo gets smaller the area targets won't work as they do in the normal size of the image??*/
+  }
+}
+
+/*a span class for telling instructions to refresh the page*/
+.refresh-page{
+  font-size: 16px;
+}
+
+
+/* Contact page- Style for the contacts section*/
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.callback-form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.callback-form h2 {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.form-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.field-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.callback-form button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 20px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.callback-form button:hover {
+  background-color: #45a049;
+}
+/*Finish contact page*/
+
+/* styles for the table heading and cells*/
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid rgb(184, 33, 33)
+}
+
+
+/*style for the table headings*/
+th {
+  background-color: #e9a650;
+  color: #333;
+}
+
+
+/*styles for the even rows of the table*/
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #eaeaea;
+}
+
+
+
+/*Styles for the gallery in the gallery page*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 160px;
+}
+
+.gallery a {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery a:hover img {
+  transform: scale(0.9);
+}
+
+
+/*style for the photo-modal when the photo is clicked*/
+.photo-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.photo-modal.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.photo-modal .modal-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+
+
+/*Style for the filter black and white in the skills page*/
+.filter-container {
+  width: 300px; /* Adjust the width and height as per your requirements */
+  height: 300px;
+}
+
+.photo-filter{
+  width: 100%;
+  height: 100%;
+  filter: grayscale(0); /* Default filter value */
+}
+
+.photo-filter:hover {
+  filter: grayscale(100%); /* Apply the desired filter effect on hover */
+}
